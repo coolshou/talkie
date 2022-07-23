@@ -6,7 +6,15 @@ A cross-platform app for system-wide push-to-talk, written in C++ with Qt.
 ![GitHub](https://img.shields.io/github/license/alexandrvicente/talkie)
 
 ![Demo](misc/readme/demo.gif)
-
+## Build from source
+```bash
+git clone https://github.com/coolshou/talkie.git
+cd talkie
+git submodule init
+git submodule update
+qmake
+make
+```
 ## Installing
 Download the latest release:
 
